@@ -1,13 +1,91 @@
 body{
     width: 100%;
     margin: 0px 0px 0px 0px;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
 }
 .header-background{
     margin-top: -23px;
     width: 100%;
-    height: 100px;
+    height: 12%;
     position: fixed;
     background-color: #03071E;
+    display: flex;
+    flex: 0 0 1;
     border-radius: 0px 0px 40px 40px;
+}
+.redberries-logo{
+    margin-left: 20px;
+    margin-top: 2%;
+    color: #F48C06;
+    font-size: 42px;
+}
+input{
+    border-radius: 20px 20px 20px 20px;
+    border: 0px;
+    background-color: #3C3C3C;
+    color: #fff;
+    text-align: center;
+}
+.search_all_site{
+    margin-left: 20%;
+    margin-top: 2%;
+    height: 40px;
+    width: 440px;
+}
+.nav-buttons{
+    margin-left: auto;
+    margin-right: 0px;
+}
+.nav-1{
+    height: 100%;
+    border-radius: 50px 0px 0px 50px;
+    width: 105px;
+    border: 0px;
+    background-color: #F48C06;
+    transition: all 0.2s;
+}
+.nav-2{
+    height: 100%;
+    width: 105px;
+    margin-left: -4px;
+    border: 0px;
+    background-color: #F48C06;
+    transition: all 0.2s;
+}
+.nav-3{
+    height: 100%;
+    width: 105px;
+    margin-left: -5px;
+    border: 0px;
+    background-color: #F48C06;
+    transition: all 0.2s;
+}
+.nav-4{
+    height: 100%;
+    width: 105px;
+    margin-left: -4px;
+    border-radius: 0px 0px 40px 0px;
+    border: 0px;
+    background-color: #F48C06;
+    transition: all 0.2s;
+}
+.nav-1:hover{
+    transform: scale(1.1, 1.1);
+    border: 0.1px solid #000;
+
+}
+.nav-2:hover{
+    transform: scale(1.1, 1.1);
+    border: 0.1px solid #000;
+
+}
+.nav-3:hover{
+    transform: scale(1.1, 1.1);
+    border: 0.1px solid #000;
+
+}
+.nav-4:hover{
+    transform: scale(1.1, 1.1);
+    border: 0.1px solid #000;
+
 }
