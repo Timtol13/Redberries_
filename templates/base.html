@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+{% load static %}
+
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}{% endblock %}</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+<header>
+    <div class="header-background">
+        <h3></h3>
+    </div>
+</header>
+    {% block content %}
+    {% endblock %}
+</body>
+</html>

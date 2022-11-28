@@ -1,0 +1,13 @@
+body{
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    font-family: Montserrat;
+}
+.header-background{
+    margin-top: -23px;
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    background-color: #03071E;
+    border-radius: 0px 0px 40px 40px;
+}
